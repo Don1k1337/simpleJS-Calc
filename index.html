@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple JavaScript Calculator</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h1>Neobis Task - Simple JS Calculator</h1>
+    <div class="main-container">
+        <div class="calc-item input"><form name="form">
+            <input type="text" name="textview" readonly>
+        </form>
+        </div>
+        <div class="calc-item clr" onclick="clearAll()">CLR</div>
+        <div class="calc-item back" onclick="delOneSymbol()">&larr;</div>
+        <div class="calc-item" onclick="input('+')">+</div>
+        <div class="calc-item" onclick="input('-')">-</div>
+        <div class="calc-item" onclick="input('*')">&times;</div>
+        <div class="calc-item" onclick="input('/')">&divide;</div>
+        <div class="calc-item" onclick="input('7')">7</div>
+        <div class="calc-item" onclick="input('8')">8</div>
+        <div class="calc-item" onclick="input('9')">9</div>
+        <div class="calc-item" onclick="input('(')">(</div>
+        <div class="calc-item" onclick="input('4')">4</div>
+        <div class="calc-item" onclick="input('5')">5</div>
+        <div class="calc-item" onclick="input('6')">6</div>
+        <div class="calc-item" onclick="input(')')">)</div>
+        <div class="calc-item" onclick="input('1')">1</div>
+        <div class="calc-item" onclick="input('2')">2</div>
+        <div class="calc-item" onclick="input('3')">3</div>
+        <div class="calc-item equal" onclick="result()">=</div>
+        <div class="calc-item zero" onclick="input('0')">0</div>
+        <div class="calc-item" onclick="input('.')">.</div>
+    </div>
+</body>
+</html>
